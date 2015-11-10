@@ -1,0 +1,85 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_app">
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="@string/power_off_feature_text"
+        android:id="@+id/power_off_feature_button"
+        android:background="@color/background_blue"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="@string/freinds_access_feature_text"
+        android:id="@+id/friends_access_button"
+        android:background="@color/background_red"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="100">
+        <Button
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:text="@string/factory_reset_feature_text"
+            android:id="@+id/factory_reset__feature_button"
+            android:background="@color/background_green"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/abc_text_size_button_material"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="50"/>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:text="@string/locate_me_feature_text"
+            android:id="@+id/locate_me_feature_button"
+            android:background="@color/background_purple"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/abc_text_size_button_material"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="50"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="@string/remotely_access_feature_text"
+        android:id="@+id/remotely_access_feature_button"
+        android:background="@color/background_yellow"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_gravity="center_horizontal"
+       />
+
+
+
+
+
+</LinearLayout>
+

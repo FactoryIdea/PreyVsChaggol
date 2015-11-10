@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PreyVsChaggol</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="power_off_feature_text">Power Off Detection</string>
+    <string name="freinds_access_feature_text">Access from friends number</string>
+    <string name="factory_reset_feature_text">Factory Reset</string>
+    <string name="locate_me_feature_text">Locate Me</string>
+    <string name="remotely_access_feature_text">Remotely Access Device</string>
+</resources>
