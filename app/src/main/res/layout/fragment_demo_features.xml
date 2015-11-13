@@ -1,9 +1,9 @@
 <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/background_app">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
 
     <Button
         android:layout_marginLeft="10dp"
@@ -75,7 +75,7 @@
         android:textColor="@android:color/background_light"
         android:textSize="@dimen/abc_text_size_button_material"
         android:layout_gravity="center_horizontal"
-       />
+        />
 
 
 
