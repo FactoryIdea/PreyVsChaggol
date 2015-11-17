@@ -1,23 +1,22 @@
 package preyvschaggol.pirates.ideafactory.preyvschaggol;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class DemoFeaturesActivity extends NoLandscapeActivity {
+public class ChangePinActivity extends NoLandscapeActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_demo_features);
+        setContentView(R.layout.activity_change_pin);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_demo_features, menu);
+        getMenuInflater().inflate(R.menu.menu_change_pin, menu);
         return true;
     }
 
@@ -30,8 +29,6 @@ public class DemoFeaturesActivity extends NoLandscapeActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent settingsActivity = new Intent(this,Settings.class);
-            startActivity(settingsActivity);
             return true;
         }
 

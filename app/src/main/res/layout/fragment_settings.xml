@@ -1,0 +1,75 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wooden_texture">
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="@string/pin_change"
+        android:id="@+id/pinChangeOption"
+        android:background="@drawable/settings_tab"
+        android:textColor="@color/settings_option_text"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="@string/friend_details"
+        android:id="@+id/power_off_feature_button1"
+        android:background="@drawable/settings_tab"
+        android:textColor="@color/settings_option_text"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="@string/customize_option"
+        android:id="@+id/power_off_feature_button2"
+        android:background="@drawable/settings_tab"
+        android:textColor="@color/settings_option_text"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="@string/manage_sound_option"
+        android:id="@+id/power_off_feature_button3"
+        android:background="@drawable/settings_tab"
+        android:textColor="@color/settings_option_text"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="@string/use_option"
+        android:id="@+id/power_off_feature_button5"
+        android:background="@drawable/settings_tab"
+        android:textColor="@color/settings_option_text"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+
+</LinearLayout>
+
