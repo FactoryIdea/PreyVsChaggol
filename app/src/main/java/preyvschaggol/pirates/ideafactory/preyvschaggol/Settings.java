@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Settings extends NoLandscapeActivity {
+public class Settings extends NoLandscapeNoActionBarActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

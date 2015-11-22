@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class ChangePinActivity extends NoLandscapeActivity {
+public class ChangePinActivity extends NoLandscapeNoActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

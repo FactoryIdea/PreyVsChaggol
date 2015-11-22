@@ -25,4 +25,10 @@
     <string name="manage_sound_option">Manage Sound</string>
     <string name="use_option">How to use</string>
     <string name="title_activity_change_pin">ChangePinActivity</string>
+
+    <!--Change Pin Activity Name-->
+    <string name="current_pin_text">Enter your current PIN</string>
+    <string name="new_pin_text">Enter new 4 digit PIN</string>
+    <string name="confirm_new_pin_text">Confirm new 4 digit PIN</string>
+    <string name="forgot_pin_text">Forgot my PIN</string>
 </resources>

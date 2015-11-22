@@ -1,12 +1,13 @@
 package preyvschaggol.pirates.ideafactory.preyvschaggol;
 
 import android.content.Intent;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 /**
@@ -26,16 +27,27 @@ public class SettingsFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
+        //Back Button Functionality
+        ImageButton backButton = (ImageButton)getActivity().findViewById(R.id.settings_back);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().finish();
+            }
+        });
+
+
+        //launch pin change activity
         Button pinChangeOption = (Button)getActivity().findViewById(R.id.pinChangeOption);
-        Toast.makeText(getActivity(), "yo", Toast.LENGTH_LONG).show();
         pinChangeOption.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //launch pin change activity
                 Intent pinChangeActivity = new Intent(getActivity(), ChangePinActivity.class);
                 getActivity().startActivity(pinChangeActivity);
                 Toast.makeText(getActivity(), "yo", Toast.LENGTH_LONG).show();
             }
         });
+
+
     }
 }

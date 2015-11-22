@@ -4,6 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/wooden_texture">
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:weightSum="100"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/dashboard_title"
+            android:layout_weight="90"/>
+        <ImageButton
+            android:layout_width="80sp"
+            android:layout_height="match_parent"
+            android:background="@drawable/setting_icon"
+            android:id="@+id/action_settings"
+            android:layout_weight="10"
+            />
+    </LinearLayout>
+
 
     <Button
         android:layout_marginLeft="10dp"
@@ -17,6 +41,7 @@
         android:textColor="@android:color/background_light"
         android:textSize="@dimen/abc_text_size_button_material"
         android:layout_gravity="center_horizontal" />
+
 
     <Button
         android:layout_marginLeft="10dp"
