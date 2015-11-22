@@ -31,4 +31,7 @@
     <string name="new_pin_text">Enter new 4 digit PIN</string>
     <string name="confirm_new_pin_text">Confirm new 4 digit PIN</string>
     <string name="forgot_pin_text">Forgot my PIN</string>
+
+    <!--Shared Prefs Screen name -->
+    <string name="login_pin">preyvschaggol.pirates.ideafactory.preyvschaggol.loginPin</string>
 </resources>

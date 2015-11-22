@@ -1,6 +1,8 @@
 package preyvschaggol.pirates.ideafactory.preyvschaggol;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -27,12 +29,19 @@ public class LoginActivityFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
+        //login Activity
         final EditText loginText = (EditText)getActivity().findViewById(R.id.pinText);
         ImageButton loginButton =(ImageButton)getActivity().findViewById(R.id.login_button);
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(loginText.getText().toString().equals("1123")){
+                Context context = getActivity();
+                SharedPreferences sharedPref = context.getSharedPreferences(
+                        getString(R.string.login_pin), Context.MODE_PRIVATE);
+                String validString =sharedPref.getString(getString(R.string.login_pin), Constants.DEFAULT_PIN);
+               // Toast.makeText(getActivity(),validString,Toast.LENGTH_LONG).show();
+                boolean isValidLogin =loginText.getText().toString().equals(validString);
+                if(isValidLogin){
                     Intent demoActivity = new Intent(getActivity(),DemoFeaturesActivity.class);
                     getActivity().startActivity(demoActivity);
                 }

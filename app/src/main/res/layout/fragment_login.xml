@@ -62,6 +62,7 @@
             android:textSize="@dimen/welcome_text_size"
             android:gravity="center"
             android:id="@+id/pinText"
+            android:inputType="numberPassword"
             />
 
         <ImageButton

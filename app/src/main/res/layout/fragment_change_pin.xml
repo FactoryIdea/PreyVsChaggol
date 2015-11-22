@@ -25,8 +25,9 @@
         android:hint="@string/pin_hint"
         android:textSize="@dimen/welcome_text_size"
         android:gravity="center"
-        android:id="@+id/pinText"
+        android:id="@+id/currentPin"
         android:background="@drawable/text_box_pin_change"
+        android:inputType="numberPassword"
         />
     <TextView
         android:layout_width="match_parent"
@@ -60,8 +61,9 @@
         android:hint="@string/pin_hint"
         android:textSize="@dimen/welcome_text_size"
         android:gravity="center"
-        android:id="@+id/pinText1"
+        android:id="@+id/newPin"
         android:background="@drawable/text_box_pin_change"
+        android:inputType="numberPassword"
         />
     <TextView
         android:layout_width="match_parent"
@@ -83,8 +85,9 @@
         android:hint="@string/pin_hint"
         android:textSize="@dimen/welcome_text_size"
         android:gravity="center"
-        android:id="@+id/pinText3"
+        android:id="@+id/confirmPin"
         android:background="@drawable/text_box_pin_change"
+        android:inputType="numberPassword"
         />
 
     <ImageButton
@@ -95,7 +98,7 @@
         android:layout_height="100sp"
         android:background="@drawable/login_button"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/login_button"/>
+        android:id="@+id/change_pin_button"/>
 
 </LinearLayout>
 

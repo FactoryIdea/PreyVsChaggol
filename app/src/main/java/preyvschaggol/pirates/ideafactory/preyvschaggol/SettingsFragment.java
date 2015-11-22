@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -44,7 +43,7 @@ public class SettingsFragment extends Fragment {
             public void onClick(View v) {
                 Intent pinChangeActivity = new Intent(getActivity(), ChangePinActivity.class);
                 getActivity().startActivity(pinChangeActivity);
-                Toast.makeText(getActivity(), "yo", Toast.LENGTH_LONG).show();
+                //Toast.makeText(getActivity(), "yo", Toast.LENGTH_LONG).show();
             }
         });
 
