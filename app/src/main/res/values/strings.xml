@@ -32,6 +32,11 @@
     <string name="confirm_new_pin_text">Confirm new 4 digit PIN</string>
     <string name="forgot_pin_text">Forgot my PIN</string>
 
+    <!--SignUP activity Name-->
+    <string name="confirm_pin_text">Confirm your 4 digit PIN</string>
+    <string name="email_register_text">Register your mail ID</string>
+    <string name="email_register_hint">abc@example.com</string>
     <!--Shared Prefs Screen name -->
     <string name="login_pin">preyvschaggol.pirates.ideafactory.preyvschaggol.loginPin</string>
+    <string name="title_activity_sign_up">SignUP</string>
 </resources>

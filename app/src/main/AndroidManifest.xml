@@ -47,6 +47,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="preyvschaggol.pirates.ideafactory.preyvschaggol.Settings" />
         </activity>
+        <activity
+            android:name=".SignUP"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
     </application>
 
 </manifest>

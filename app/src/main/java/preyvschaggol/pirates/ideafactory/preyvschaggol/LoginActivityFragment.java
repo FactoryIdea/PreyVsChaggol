@@ -38,7 +38,7 @@ public class LoginActivityFragment extends Fragment {
                 Context context = getActivity();
                 SharedPreferences sharedPref = context.getSharedPreferences(
                         getString(R.string.login_pin), Context.MODE_PRIVATE);
-                String validString =sharedPref.getString(getString(R.string.login_pin), Constants.DEFAULT_PIN);
+                String validString =sharedPref.getString(getString(R.string.login_pin), ConstantsAndUtility.DEFAULT_PIN);
                // Toast.makeText(getActivity(),validString,Toast.LENGTH_LONG).show();
                 boolean isValidLogin =loginText.getText().toString().equals(validString);
                 if(isValidLogin){
