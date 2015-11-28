@@ -44,10 +44,12 @@ public class LoginActivityFragment extends Fragment {
                 if(isValidLogin){
                     Intent demoActivity = new Intent(getActivity(),DemoFeaturesActivity.class);
                     getActivity().startActivity(demoActivity);
+                    getActivity().finish();
                 }
                 else{
                     Toast.makeText(getActivity(),"Invalid Pin",Toast.LENGTH_LONG).show();
                 }
+
             }
         });
     }

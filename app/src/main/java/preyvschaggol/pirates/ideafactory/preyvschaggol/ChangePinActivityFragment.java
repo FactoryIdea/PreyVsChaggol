@@ -40,8 +40,10 @@ public class ChangePinActivityFragment extends Fragment {
                 EditText confirmPinEditText = (EditText) getActivity().findViewById(R.id.confirmPin);
                 String confirmPin = confirmPinEditText.getText().toString();
 
-                ConstantsAndUtility.changePin(getActivity(),currentPin, newPin, confirmPin);
-                getActivity().finish();
+                boolean isValid =ConstantsAndUtility.changePin(getActivity(),currentPin, newPin, confirmPin);
+                if(isValid) {
+                    getActivity().finish();
+                }
             }
         });
 
@@ -49,31 +51,5 @@ public class ChangePinActivityFragment extends Fragment {
 
     }
 
-    /*private void changePin(String currentPin ,String newPin,String confirmPin){
-        Context context = getActivity();
-        SharedPreferences sharedPref = context.getSharedPreferences(
-                getString(R.string.login_pin), Context.MODE_PRIVATE);
-        String validPin =sharedPref.getString(getString(R.string.login_pin), ConstantsAndUtility.DEFAULT_PIN);
-
-        if(currentPin.equals(validPin)){
-            if(newPin.length()== ConstantsAndUtility.PIN_LENGTH) {
-                if (newPin.equals(confirmPin)) {
-                    SharedPreferences.Editor editor = sharedPref.edit();
-                    editor.putString(getString(R.string.login_pin), newPin);
-                    editor.commit();
-                    Toast.makeText(getActivity(), "Pin Changed Successfully", Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(getActivity(), "New Pin and confirm Pin didn't match. Try again", Toast.LENGTH_LONG).show();
-                }
-            }
-            else{
-                Toast.makeText(getActivity(), "Pin Should exactly be of "+ ConstantsAndUtility.PIN_LENGTH+" digits", Toast.LENGTH_LONG).show();
-            }
-        }
-        else{
-            Toast.makeText(getActivity(),"Invalid Current Pin. Try again",Toast.LENGTH_LONG).show();
-        }
-    }
-*/
 
 }

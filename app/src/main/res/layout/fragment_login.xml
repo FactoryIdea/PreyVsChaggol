@@ -64,7 +64,17 @@
             android:id="@+id/pinText"
             android:inputType="numberPassword"
             />
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/background_yellow"
+            android:text="@string/forgot_pin_text"
+            android:textSize="@dimen/welcome_text_size"
+            android:gravity="right"
+            />
         <ImageButton
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
