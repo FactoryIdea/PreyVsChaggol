@@ -39,4 +39,9 @@
     <!--Shared Prefs Screen name -->
     <string name="login_pin">preyvschaggol.pirates.ideafactory.preyvschaggol.loginPin</string>
     <string name="title_activity_sign_up">SignUP</string>
+    <string name="title_activity_friend_details">Friends Detail</string>
+
+    <!--Friend Details Screen -->
+    <string name="friend_contact_description">Choose Contacts</string>
+    <string name="added_friend_contact_description">Added Contacts</string>
 </resources>

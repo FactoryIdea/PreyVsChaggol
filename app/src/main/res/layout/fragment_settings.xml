@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="100sp"
         android:text="@string/friend_details"
-        android:id="@+id/power_off_feature_button1"
+        android:id="@+id/friendEditOption"
         android:background="@drawable/settings_tab"
         android:textColor="@color/settings_option_text"
         android:textSize="@dimen/abc_text_size_button_material"

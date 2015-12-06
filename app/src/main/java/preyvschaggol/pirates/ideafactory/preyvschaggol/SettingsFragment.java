@@ -43,7 +43,18 @@ public class SettingsFragment extends Fragment {
             public void onClick(View v) {
                 Intent pinChangeActivity = new Intent(getActivity(), ChangePinActivity.class);
                 getActivity().startActivity(pinChangeActivity);
-                //Toast.makeText(getActivity(), "yo", Toast.LENGTH_LONG).show();
+
+            }
+        });
+
+        //launch Friend Activity Functionality
+        Button editFriendOption = (Button)getActivity().findViewById(R.id.friendEditOption);
+        editFriendOption.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pinChangeActivity = new Intent(getActivity(),FriendDetails.class);
+                getActivity().startActivity(pinChangeActivity);
+
             }
         });
 

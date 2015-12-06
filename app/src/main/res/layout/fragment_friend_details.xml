@@ -1,0 +1,171 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wooden_texture"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/friend_detail_title"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/friend_detail_description"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="@string/friend_contact_description"
+            android:textSize="@dimen/welcome_text_size_second"
+            android:gravity="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="This will be a search cum select dropdown"
+            android:textSize="@dimen/welcome_text_size"
+            android:gravity="center"
+            android:id="@+id/pinText"
+            android:inputType="numberPassword"
+            />
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:background="@drawable/login_button"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/login_button"/>
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:background="@drawable/login_button"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/done_friend_editting_button"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="@string/added_friend_contact_description"
+            android:textSize="@dimen/welcome_text_size_second"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="Arnab"
+            android:textSize="@dimen/welcome_text_size_second"
+            android:background="#FF0000"
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="There will be a cross on the right side in future"
+            android:textSize="@dimen/welcome_text_size_second"
+            android:background="#FF0000"
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="This has to be like that because Arnab didn't give me the screens"
+            android:textSize="@dimen/welcome_text_size_second"
+            android:background="#FF0000"
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="Arnab is bad"
+            android:textSize="@dimen/welcome_text_size_second"
+            android:background="#FF0000"
+
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_light"
+            android:text="Sahi"
+            android:textSize="@dimen/welcome_text_size_second"
+            android:background="#FF0000"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
